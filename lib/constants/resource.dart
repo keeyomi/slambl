@@ -1,0 +1,60 @@
+import 'dart:ui';
+
+class Resource {
+  static const String iconLogo = 'assets/icons/ic_ex_logo.svg';
+  static const String iconRight = 'assets/icons/ic_right.svg';
+  static const String iconStar = 'assets/icons/ic_star.svg';
+  static const String iconHome = 'assets/icons/ic_home.svg';
+  static const String iconHomeFill = 'assets/icons/ic_home_fill.svg';
+  static const String iconFile = 'assets/icons/ic_file.svg';
+  static const String iconFileFill = 'assets/icons/ic_file_fill.svg';
+  static const String iconPartner = 'assets/icons/ic_partner.svg';
+  static const String iconPartnerFill = 'assets/icons/ic_partner_fill.svg';
+  static const String iconMore = 'assets/icons/ic_more.svg';
+  static const String iconX = 'assets/icons/ic_x.svg';
+  static const String iconPlus = 'assets/icons/ic_plus.svg';
+  static const String iconMinus = 'assets/icons/ic_minus.svg';
+  static const String iconEdit = 'assets/icons/ic_edit.svg';
+  static const String iconBed = 'assets/icons/ic_bed.svg';
+  static const String iconBath = 'assets/icons/ic_bath.svg';
+  static const String iconTissue = 'assets/icons/ic_tissue.svg';
+  static const String iconBooth = 'assets/icons/ic_booth.svg';
+  static const String iconCarpet = 'assets/icons/ic_carpet.svg';
+  static const String iconKitchen = 'assets/icons/ic_kitchen.svg';
+  static const String iconOtherRoom = 'assets/icons/ic_other_room.svg';
+  static const String iconTerrace = 'assets/icons/ic_terrace.svg';
+  static const String iconSwimmingPool = 'assets/icons/ic_swimming_pool.svg';
+  static const String iconStair = 'assets/icons/ic_stair.svg';
+  static const String iconShower = 'assets/icons/ic_shower.svg';
+  static const String iconBin = 'assets/icons/ic_bin.svg';
+  static const String iconRemove = 'assets/icons/ic_circle_x.svg';
+  static const String iconSearch = 'assets/icons/ic_search.svg';
+  static const String iconCheck = 'assets/icons/ic_check_circle.svg';
+  static const String iconCheckFill = 'assets/icons/ic_check_circle_fill.svg';
+  static const String iconCircleExclamation = 'assets/icons/ic_circle_exclamation.svg';
+  static const String iconDownCircle = 'assets/icons/ic_down_circle.svg';
+  static const String iconPhone = 'assets/icons/ic_phone.svg';
+  static const String iconBoxCheck = 'assets/icons/ic_box_check.svg';
+  static const String iconSend = 'assets/icons/ic_send.svg';
+  static const String iconDocument = 'assets/icons/ic_document.svg';
+  static const String iconPage = 'assets/icons/ic_page.svg';
+
+  static const String imgBi = 'assets/images/bi.png';
+  static const String imgLogo = 'assets/images/logo.png';
+  static const String imgConvenienceStore = 'assets/images/convenience_store.png';
+  static const String imgDepartmentHalf = 'assets/images/department_store_half.png';
+  static const String imgDepartmentFull = 'assets/images/department_store_full.png';
+  static const String imgHotel = 'assets/images/hotel.png';
+  static const String imgOfficeBuilding = 'assets/images/office_building.png';
+  static const String imgBgCloud = 'assets/images/bg_cloud.png';
+  static const String imgPartyPopper = 'assets/images/party_popper.png';
+  static const String imgProfile = 'assets/images/profile.png';
+  static const String imgFinalProposal = 'assets/images/clip_board.png';
+  static const String imgSmile = 'assets/images/smile.png';
+  static const String imgCalendar = 'assets/images/calendar.png';
+  static const String imgExclamation = 'assets/images/white_exclamation_mark.png';
+  static const String imgOn = 'assets/images/on.png';
+  static const String imgOff = 'assets/images/off.png';
+
+  static ColorFilter getColorFilter(Color color) => ColorFilter.mode(color, BlendMode.srcIn);
+}
